@@ -7,7 +7,7 @@ const querystring = require('querystring');
 
 module.exports = (destination, options) => {
   const spinner = ora({
-    text: `Creating Quarkus project at into ${destination}\n`,
+    text: `Creating Quarkus project into ${destination}\n`,
     color: 'green'
   }).start();
 

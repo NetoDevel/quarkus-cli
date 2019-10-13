@@ -24,7 +24,7 @@ createProject.on('close', code => {
   destination = destination || process.cwd();
 
   // assert console output
-  expect(output.indexOf(`Creating Quarkus project at into ${destination}`)).to.not.equal(-1);
+  expect(output.indexOf(`Creating Quarkus project into ${destination}`)).to.not.equal(-1);
   expect(output.indexOf('Quarkus application project successfully created ')).to.not.equal(-1);
   expect(output.indexOf(emoji.get('white_check_mark'))).to.not.equal(-1);
   expect(output.indexOf(emoji.get('computer'))).to.not.equal(-1);
