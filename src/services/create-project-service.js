@@ -65,9 +65,11 @@ module.exports = (destination, options) => {
               )}" to get started.`
             );
             console.log(
-              `${emoji.get('cloud')}  Happy coding on top of Quarkus ${colors.cyan(
+              `${emoji.get('computer')} In the project directory, run ${colors.green(
+                './mvnw compile quarkus:dev'
+              )} and start coding on top of Quarkus ${colors.cyan(
                 'v.' + quarkusVersion
-              )} k8s and Cloud native Java stack.`
+              )} k8s and Cloud native Java stack ${emoji.get('cloud')} `
             );
           });
       });
