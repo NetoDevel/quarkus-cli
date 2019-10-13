@@ -2,6 +2,8 @@
 
 `quarkus-cli` is an unoffical command line interface for `https://code.quarkus.io`. You can use this CLI tool to generate a new [`Quarkus`](https://quarkus.io) project without the usage of the browser.
 
+![](https://github.com/machi1990/quarkus-cli/workflows/Node%20CI/badge.svg)
+
 # Installation
 
 The CLI is written on NodeJs - at least NodeJs v8 is required.
