@@ -1,6 +1,6 @@
 {
   "name": "quarkus-cli",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha-01",
   "description": "Code with Quarkus from the command line",
   "main": "index.js",
   "bin": {
@@ -14,6 +14,7 @@
   "dependencies": {
     "colors": "1.4.0",
     "commander": "3.0.2",
+    "maven": "4.7.0",
     "node-emoji": "1.10.0",
     "ora": "4.0.2",
     "unzipper": "0.10.5"

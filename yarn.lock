@@ -1550,6 +1550,11 @@ map-obj@^2.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-2.0.0.tgz#a65cd29087a92598b8791257a523e021222ac1f9"
   integrity sha1-plzSkIepJZi4eRJXpSPgISIqwfk=
 
+maven@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/maven/-/maven-4.7.0.tgz#d98734d875063730eec611085aff2a28c15f8b77"
+  integrity sha512-RvXKuy2R78Qs41e0UUn3qMw13FY16ZGAb3QyAi6AfuGwGaXh1HsWpKRrdlWAnI3ZnZiuubWMFv2FkkjJ162k7Q==
+
 meow@^3.3.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"

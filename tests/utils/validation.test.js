@@ -54,6 +54,32 @@ describe('CLI Args Validation', () => {
     });
   });
 
+  describe('.validateFileName(fileName)', () => {
+    context('{ fileName } is valid', () => {
+      it('returns true', () => {
+        // GIVEN
+        const fileName = 'file.name';
+        const expected = true;
+        // WHEN
+        const actual = validation.validateFileName(fileName);
+        // THEN
+        expect(expected).to.equal(actual);
+      });
+    });
+
+    context('{ fileName } is invalid', () => {
+      it('returns false', () => {
+        // GIVEN
+        const fileName = 'com/invalid';
+        const expected = false;
+        // WHEN
+        const actual = validation.validateFileName(fileName);
+        // THEN
+        expect(expected).to.equal(actual);
+      });
+    });
+  });
+
   describe('.validateClassName(className)', () => {
     context('{ className } is valid', () => {
       it('returns true', () => {

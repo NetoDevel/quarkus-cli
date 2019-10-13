@@ -1,6 +1,6 @@
-const colors = require('colors');
 const emoji = require('node-emoji');
 const validation = require('../utils/validation');
+const { showFormat, showInvalid } = require('../utils/show');
 const collectExtensions = require('../utils/collect-extensions');
 const createProjectService = require('../services/create-project-service');
 
@@ -9,7 +9,7 @@ module.exports = program => {
     .command('init [destination]')
     .alias('create')
     .description(
-      'Create a new Quarkus project into a given directory specified as parameter. Defaults to current creating the project in the current directory.'
+      'Create a new Quarkus project into a given directory specified as parameter. Defaults to current creating the project in the current directory.\n'
     )
     .option(
       '-e, --extensions <extension>',
@@ -77,11 +77,3 @@ module.exports = program => {
       });
     });
 };
-
-function showFormat(format) {
-  return `The accepted format is "${colors.cyan(colors.underline('/' + format + '/'))}"`;
-}
-
-function showInvalid(value) {
-  return colors.red(value);
-}
