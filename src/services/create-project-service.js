@@ -55,7 +55,7 @@ module.exports = (destination, options) => {
             console.log(
               `${emoji.get(
                 'white_check_mark'
-              )} Quarkus application project successfully create in the "${colors.underline(
+              )} Quarkus application project successfully created in the "${colors.underline(
                 colors.bold(destination)
               )}" directory.`
             );

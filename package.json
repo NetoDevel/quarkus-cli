@@ -7,7 +7,8 @@
     "quarkus-cli": "bin/quarkus-cli.js"
   },
   "scripts": {
-    "test": "mocha tests/**/*.js",
+    "test": "mocha tests/**/*.test.js",
+    "create-project-test": "node tests/commands/assert-project-creation.js; node tests/commands/assert-project-creation.js foo",
     "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "dependencies": {
