@@ -10,7 +10,7 @@ The CLI is written on NodeJs - at least NodeJs v8 is required.
 
 1. Install test runner you can use either of the following options.
    - npm: `npm install -g https://github.com/machi1990/quarkus-cli`
-   - yarn: `yarn gloabl add https://github.com/machi1990/quarkus-cli`
+   - yarn: `yarn global add https://github.com/machi1990/quarkus-cli`
 
 To see if the installation is successfully, run `quarkus -h` which should output the usage information.
 
