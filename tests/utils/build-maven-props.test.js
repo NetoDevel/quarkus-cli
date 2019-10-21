@@ -32,7 +32,7 @@ describe('Build Maven Props', () => {
           mambo: 'poa',
           hello: 'world',
           bonjour: 'monde',
-          arigato: undefined
+          arigato: true
         };
         // WHEN
         const mavenProps = buildMavenProps(['-Dmambo=poa', '-Dhello=world', '-Dbonjour=monde', '-Darigato']);
