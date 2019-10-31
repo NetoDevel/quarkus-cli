@@ -35,11 +35,14 @@ Type `quarkus-cli config -h` for more help
 - To run the current project in dev mode use `quarkus-cli dev`
 - To run the current project in remote dev mode use `quarkus-cli remote-dev`
 
+## test
+- To run all test current project use `quarkus-cli test`
+
 # TODO
 
 - [ ] Add gradle support.
 - [ ] Add the ability to customize build tool
-- [ ] Support of additional commands like `add-extension`, `list-extensions`, `build`, `test`
+- [ ] Support of additional commands like `add-extension`, `list-extensions`, `build`
 
 # Author
 
